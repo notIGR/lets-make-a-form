@@ -1,0 +1,32 @@
+/* 
+  --- Welcome to the form challenge ---
+  -------------------------------------
+  Currently, we are lacking in the styles department,
+  but lucky for you, your designer has given you some resources.
+  You are to make this page look like 
+  WITHOUT modifying ANY HTML.
+
+  Thankfully, we don't have to use any nasty @imports for the fonts,
+  (Lato is already imported in HTML so you can use it in CSS font-family)
+  and I've gone ahead and color slurped the colors for you.
+
+  Theme:
+
+
+  I'd like to see them used as variables as we may change them in
+  the future 👀
+  
+  Here is a link on how to create / use CSS variables
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
+*/
+:root {
+  /* HINT: Your variables will need to go here so you can use them everywhere */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
