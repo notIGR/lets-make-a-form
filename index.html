@@ -17,16 +17,19 @@
     <main>
       <form class="signup-form">
         <h1>Sign up for ColorSlurp</h1>
-        <div class="signup-form__row">
-          <label for="username"></label>
-          <input type="text" name="username" id="username">
+        <div class="signup-form__content">
+          <div class="signup-form__row">
+            <label for="username">Username</label>
+            <input type="text"  maxlength="24" name="username" id="username">
+          </div>
+          <div class="signup-form__row">
+            <label for="password">Password</label>
+            <input type="password"  maxlength="32" name="password" id="password">
+          </div>
+          <input type="submit" value="Sign Up">
         </div>
-        <div class="signup-form__row">
-          <label for="password"></label>
-          <input type="password" name="password" id="password">
-        </div>
-        <input type="submit" value="Sign Up">
       </form>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
